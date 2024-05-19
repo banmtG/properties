@@ -10,7 +10,7 @@
     border: 1px solid grey;
     border-radius: 15px;
     margin-right: 4px;
-    opacity: 0.7;
+    opacity: 1;
 }
 
 .banner_Contact {
@@ -91,7 +91,7 @@
     }
 
     .directBooking_V img {
-        width: 10px;
+        width: 15px;
     }
         .banner_Contact {        
         grid-template-rows: 1fr 1fr;
