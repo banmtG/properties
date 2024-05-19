@@ -1,0 +1,54 @@
+
+.contactInfo {
+    padding: 15px 15px;
+    font-size: 1.2rem;
+}
+
+
+.contactInfo_Table {
+    display:grid;
+    grid-template-columns: 70px auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:5px;
+}
+
+.first_Col {
+    text-align: left;
+}
+
+
+.contactInfo_IconBar img {
+    
+    max-width: 40px;
+    max-height:  auto;
+}
+
+.wrapper {
+    width: 100%;
+    position: fixed;
+    bottom:0;
+    left: 0;
+    right: 0;
+    margin-bottom:10px;
+    display:flex;
+    justify-content: center;
+}
+
+.contactInfo_IconBar {
+    margin-left:10px;
+    width: 350px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+/* Tablet menu */
+@media all and (min-width: 600px) {
+    /* .contactInfo_IconBar img {    
+        max-width: 40px;
+        max-height:  auto;
+    }
+    .contactInfo_IconBar {
+        width: 400px;
+       
+    } */
+}
