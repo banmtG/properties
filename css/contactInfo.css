@@ -10,10 +10,11 @@
 
 
 .contactInfo_Table {
+    margin-top: 5px;
     display:grid;
-    grid-template-columns: 70px auto;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap:5px;
+    grid-template-columns: 100px auto;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap:2px;
 }
 
 .first_Col {
