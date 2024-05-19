@@ -14,14 +14,16 @@ a {
     list-style-type: none;
 }
 .logo {
-    font-size: 1.6em;
-    font-weight: bold;
-    margin-left:15px;
+    font-size: 2rem;
+    font-weight:bolder;
    
+    margin-left:15px;
+    
     /* padding: 1.6em 10px 1.6em 0; */
 }
 .logo a {
-    color: var(--green-color); 
+    color: var(--blue-color); 
+    
     /* color: white;
     background-color: black; */
 }
