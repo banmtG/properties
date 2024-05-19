@@ -1,3 +1,7 @@
+.qr {
+    display: none;
+    opacity: 0;
+}
 
 .contactInfo {
     padding: 15px 15px;
@@ -17,9 +21,8 @@
 }
 
 
-.contactInfo_IconBar img {
-    
-    max-width: 40px;
+.contactInfo_IconBar img {    
+    width: 50px;
     max-height:  auto;
 }
 
@@ -41,8 +44,57 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
+
+
 /* Tablet menu */
 @media all and (min-width: 600px) {
+
+    .whatsapp {
+        position: relative;
+    }
+
+    .qr {
+        position: absolute;
+        top: -260px;
+        left: -100px;
+        opacity: 1;
+        transition: 3.5s;
+        border: 1px solid grey;
+        margin: 1px;
+    }
+    
+    .whatsapp:hover .whatsapp_qr {
+        display: block;      
+        width: 250px; 
+    }
+
+    .facebook {
+        position: relative;
+    }
+    
+    .facebook:hover .facebook_qr {
+        display: block;      
+        width: 250px;        
+    }
+
+    .zalo {
+        position: relative;
+    }
+    
+    .zalo:hover .zalo_qr {
+        display: block;      
+        width: 250px;        
+    }
+
+    .telegram {
+        position: relative;
+    }
+    
+    .telegram:hover .telegram_qr {
+        display: block;      
+        width: 250px;        
+    }
+    
     /* .contactInfo_IconBar img {    
         max-width: 40px;
         max-height:  auto;
@@ -52,3 +104,4 @@
        
     } */
 }
+
